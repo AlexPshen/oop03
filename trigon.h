@@ -14,8 +14,7 @@ public:
             throw std::logic_error("It is not trigon");
         }
     }
-
-    bool correct() const override;
+    
     point center() const override;
     double square() const override;
     void print(std::ostream& os) const override;
